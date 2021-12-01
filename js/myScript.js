@@ -21,7 +21,7 @@ var jsonFullDescription =
                 "id": 2,
                 "short_description": "Горные лыжи HEAD EPIC JOY + JOY 11 GW SLR BR 78 (21/22) Black-Choppergold",
                 "type": "ski",
-                "image": "./images/products/Ski_headpark.jpg",
+                "image": "./images/products/Ski_park.jpg",
                 "price": 49192,
                 "description": "Epic Joy – это не просто сверхлёгкие лыжи, они олицетворяют чистую элегантность. С этими высокопроизводительными лыжами вы можете прогрессировать с каждым днём. Лыжи полностью раскрывают свой потенциал на склонах. Когда темп увеличивается, эти лыжи сохраняют баланс и контроль."
             },
