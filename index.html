@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body background="./background/mountains-snow-capped-sky-snow.jpg">
+    <div class="header">
+        <div class="wrapper">
+            <div>
+                <a href="./index.html" class="header__image" src> <img class="header__image" alt="Logo" src="./images/log_site.png" alt=""> </a>
+            </div>
+            <div class="header_menu">
+                <ul class="main_menu" id="menu_ul">
+                    <li class="dropdown">Лыжи</li>
+                    <li class="dropdown">Сноуборд</li>
+                    <li class="dropdown">Велосипед</li>
+                </ul>
+            </div>
+            <div class="header_login_reg">
+                <a id="registration" href="#" data-title="Личный кабинет" class="header_a" src>
+                    <svg class="img_login" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                        width="980.000000pt" height="980.000000pt" viewBox="0 0 980.000000 980.000000"
+                        preserveAspectRatio="xMidYMid meet">
+
+                        <g transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)"
+                            fill="#000000" stroke="none" id="user">
+                            <path d="M4500 9789 c-925 -80 -1777 -399 -2513 -942 -364 -268 -741 -643
+                            -1020 -1014 -475 -632 -795 -1398 -916 -2196 -69 -450 -69 -1024 0 -1474 135
+                            -892 500 -1701 1083 -2408 124 -151 464 -491 616 -616 800 -663 1726 -1041
+                            2765 -1129 155 -13 615 -13 770 0 1040 88 1964 465 2765 1129 148 122 489 463
+                            611 611 664 801 1041 1725 1129 2765 13 155 13 615 0 770 -54 637 -209 1207
+                            -479 1760 -179 367 -379 678 -645 1000 -127 154 -467 494 -621 621 -801 661
+                            -1722 1036 -2760 1124 -139 11 -646 11 -785 -1z m732 -2168 c328 -71 575 -207
+                            814 -445 236 -237 374 -491 445 -826 20 -89 23 -135 23 -305 0 -170 -3 -216
+                            -23 -305 -139 -652 -619 -1131 -1271 -1271 -89 -20 -135 -23 -305 -23 -170 0
+                            -216 3 -305 23 -335 71 -589 209 -826 445 -237 237 -376 491 -444 813 -28 128
+                            -37 375 -20 509 82 660 560 1204 1198 1365 166 42 224 48 432 44 141 -2 208
+                            -8 282 -24z m-1508 -3371 c731 -492 1727 -475 2444 42 l82 59 113 -54 c242
+                            -118 428 -264 623 -491 224 -259 408 -587 532 -948 82 -237 142 -514 142 -657
+                            l0 -51 -2762 0 -2761 0 7 102 c11 169 64 406 140 625 238 683 683 1222 1193
+                            1443 79 34 90 37 108 24 11 -8 74 -50 139 -94z"/>
+                        </g>
+                   </svg></a>
+            </div>
+            <a id="menu" href="#" class="icon">&#9776;</a>
+        </div>
+    </div>
+    <main class="centerMain">
+        <div class="menubar" id="menubar">
+            <ul class="main_menu_after">
+                <li class="dropdown">Лыжи</li>
+                <li class="dropdown">Сноуборд</li>
+                <li class="dropdown">Велосипед</li>
+            </ul>
+        </div>
+        <div class="wrapper_content">
+            <div class="page_header">
+                <div id="myTitle" class="title_page_header">
+                    <div>
+                        <a href="./index.html" class="page-header_link">Главная страница</a>
+                    </div>
+                </div>
+                <h1 id="myTypePage" class="myH1Page">Каталог товаров</h1>
+            </div>
+            <div class="main">
+                <div class="products" id="listProducts">
+
+                </div>
+                <div class="support">
+                    <div class="d2">
+                        <form action="#" class="search" target="_self">
+                            <input type="text" name="search" placeholder="Искать здесь...">
+                            <button type="submit"> 🕵🏻‍♂️</button>
+                        </form>
+                    </div>
+                    <div class = "sort">
+                        <form action="#" class="sort_form" target="_self">
+                            <p><b>Сортировать товар по: </b></p>
+                            <p><input name="dzen" type="radio" value="below"> убыванию </p>
+                            <p><input name="dzen" type="radio" value="upper"> возрастанию </p>
+                            <p><input type="submit" value="Выбрать" class="input_sumb"></p>
+                        </form>
+                    </div>
+                    <div class="my_orders">
+                        <p>Order 1</p>
+                        <p>Order 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class=footer_container>
+            <div class="contacts">
+                <div>
+                    <a href="https://www.instagram.com/miroslav.kuzin/" class="messenger" src> <img class="messenger" alt="Logo" src="./images/instagram.svg" alt=""> </a>
+                    <a href="https://vk.com/funny_guy_so_that" class="messenger" src> <img class="messenger" alt="Logo" src="./images/vk.svg" alt=""> </a>
+                    <a href="https://wa.me/+79615390699" class="messenger" src> <img class="messenger" alt="Logo" src="./images/whatsapp.svg" alt=""> </a>
+                    <a href="https://t.me/Forward_XXI" class="messenger" src> <img class="messenger" alt="Logo" src="./images/telegram.svg" alt=""> </a>
+                </div>
+            </div>
+            <div class="info">
+                <div class="contacts_right">
+                    <a href="./index.html" class="header__image" src> <img class="header__image" alt="Logo" src="./images/log_site.png" alt=""> </a>
+                    <div class="phone">
+                        <a href="tel:89180702210" class="my-phone" src> 8-918-070-22-10</a>
+                        <a href="mailto:kuzin.miroslav@yandex.ru" class="my-email" src> kuzin.miroslav@yandex.ru</a>
+                        <!-- <img src="./images/products/Atom_City_Surfer.jpg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/myScript.js"></script>
+</body>
+</html>
