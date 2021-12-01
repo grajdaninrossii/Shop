@@ -24,6 +24,7 @@ body {
     background-size: cover;
     /* backdrop-filter: saturate(80%); */
     width: 100%;
+    min-width: 450px;
 }
 
 .header__image{
@@ -739,7 +740,7 @@ a.icon:hover{
     /* position: fixed; */
     height: 80px;
     width: 100%;
-    min-width: 450px;
+    min-width: 455px;
     background-color:rgba(255, 72, 0, 0.952);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
